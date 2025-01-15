@@ -6,7 +6,7 @@ import GlobalContext from './contexts/GlobalContext'
 
 function App() {
   return (
-    <GlobalContext.Provider value={ }>
+    <GlobalContext.Provider value={getData()}>
       <HeaderComponent />
       <MainComponent />
       <FooterComponent />
